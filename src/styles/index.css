@@ -10,3 +10,37 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.stand{
+    background: black;
+    width: 25px;
+    height: 60px;
+    margin-left: 135px;
+}
+
+.TrafficLight {
+    background-color: black;
+    width: 200px;
+    height: 550px;
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.light{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 100%;
+    padding: 80px;
+    background-color: burlywood;
+    margin-bottom: 10px;
+}
+
+.red{ background: red; }
+.yellow{ background: yellow; }
+.green{ background: green; }
+
+.glow{
+    box-shadow: 0px 0px 9px 4px burlywood;
+ }
