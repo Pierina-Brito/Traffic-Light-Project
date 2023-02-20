@@ -11,18 +11,29 @@
 
 */
 
+body{
+    background: lightblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 .stand{
     background: black;
     width: 25px;
     height: 60px;
-    margin-left: 135px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .TrafficLight {
     background-color: black;
     width: 200px;
     height: 550px;
-    margin-left: 50px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
     border-radius: 10px;
 }
@@ -31,7 +42,7 @@
     width: 100px;
     height: 100px;
     margin: auto;
-    border-radius: 100%;
+    border-radius: 130%;
     padding: 80px;
     background-color: burlywood;
     margin-bottom: 10px;
